@@ -8,12 +8,19 @@
 <?php
 echo 'Continents:';
 echo '</br>'; 
-echo $listContinents;
+echo $listOfContinentsSoap;
+echo '</br>';
 
-echo 'Country by Code:';
+echo 'Country by Code: ';
+echo $countryNameSoap;
 echo '</br>'; 
-echo $country;
-
+echo '</br>';
+echo 'Continents:';
+echo '</br>'; 
+echo $listOfContinentsCurl;
+echo '</br>'; 
+echo 'Country by Code: ';
+echo $countryNameCurl;
 ?>
 
 </body>
